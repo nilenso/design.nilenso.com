@@ -74,7 +74,14 @@ div.philosophy {
 div.philosophy-example {
   height: 10%;
   min-height: 490px;
-  text-align: center;
+}
+
+div.philosophy-example-text {
+  position: relative;
+}
+
+div.philosophy-example-image {
+  position: relative;
 }
 
 div.challenges {
@@ -97,4 +104,4 @@ div.contact {
   height: 18%;
   min-height: 890px;
   text-align: center;
-}
+} 
