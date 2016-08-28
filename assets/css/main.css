@@ -32,11 +32,18 @@ h1 {
     display:none;
   }
 
-  .philosophy-content {
+  div.philosophy-content {
     width: 100%;
     text-align: center;
   }
 
+  div.philosophy-content > .align-to-center {
+    position: relative;
+    left: 0;
+    top 0;
+    transform: none;
+    margin-top: 10px;
+  }
 }
 
 div.container {
@@ -52,7 +59,7 @@ div.container .pure-g:nth-child(even) {
   background: #FFF;
 }
 
-div.container .pure-g:nth-child(odd) {
+div.container > .pure-g:nth-child(odd) {
   background: #F8F8F8;
 }
 
@@ -90,6 +97,10 @@ div.philosophy {
 div.philosophy-example {
   height: 10%;
   min-height: 490px;
+}
+
+div.philosophy-example:nth-child(odd) {
+  direction: rtl;
 }
 
 div.philosophy-example-text > .pure-g {
