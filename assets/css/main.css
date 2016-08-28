@@ -23,6 +23,22 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.sentinal {
+  height: 100%;
+}
+
+@media screen and (max-width: 48em) {
+  .sentinal {
+    display:none;
+  }
+
+  .philosophy-content {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
 div.container {
   height: 100%;
   width: 100%;
@@ -76,12 +92,17 @@ div.philosophy-example {
   min-height: 490px;
 }
 
-div.philosophy-example-text {
-  position: relative;
+div.philosophy-example-text > .pure-g {
+  height: 100%;
 }
 
-div.philosophy-example-image {
+div.philosophy-example-image > .pure-g {
+  height: 100%;
+}
+
+div.philosophy-content {
   position: relative;
+  text-align: center;
 }
 
 div.challenges {
