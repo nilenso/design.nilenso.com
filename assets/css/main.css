@@ -43,13 +43,26 @@ h1 {
   color: #4A4A4A;
 }
 
+/*philosophy*/
+.philosophy {
+  text-align: center;
+}
 
+.title {
+  font: 44px 'Lato', sans-serif;
+  color: #4A4A4A;
+  margin: 70px 25px;
+}
 
+.line {
+  border-bottom: 1px solid #4A4A4A;
+  width: 65px;
+}
 
-
-
-
-
+.title, .line {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 
 
