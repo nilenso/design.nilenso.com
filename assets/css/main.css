@@ -12,6 +12,50 @@ h1 {
   text-decoration: underline;
 }
 
+
+
+
+
+
+.banner {
+  height: 760px;
+  background-color: #F8F8F8;
+  padding: 20px;
+  position: relative;
+}
+
+.nilenso-logo {
+  width: 224px;
+  position: absolute;
+}
+
+.banner-text {
+  margin: 0 auto;
+  text-align: center;
+  font: italic 54px 'Alegreya', sans-serif;
+  width: 72%;
+  max-width: 1034px;
+  color: #4A4A4A;
+  margin-top: 279px;
+}
+
+.design-real-world-link {
+  color: #4A4A4A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .pure-g {
   position: relative;
 }
