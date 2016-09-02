@@ -230,21 +230,29 @@ body, html {
 
 
 @media only screen and (max-device-width: 480px) {
+  .container{
+    width: 100%;
+  }
   .banner-text {
-    max-width: 560px;
+    max-width: 580px;
   }
   .philosophy-section {
     padding: 58px;
   }
   .philosophy-illustration {
-    width: 250px;
+    width: 340px;
+    height: 340px;
   }
   .philosophy-text {
   }
   .philosophy-description {
     max-width: 400px;
   }
+  .team{
+    padding-bottom: 70px;
+  }
   .person {
+    width: 500px;
     margin-bottom: 50px;
   }
 }
