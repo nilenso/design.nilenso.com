@@ -30,7 +30,7 @@ body, html {
 .banner-text {
   margin: 0 auto;
   text-align: center;
-  font: italic 54px 'Alegreya', sans-serif;
+  font: italic 40px 'Alegreya', sans-serif;
   width: 72%;
   max-width: 1034px;
   color: #4A4A4A;
@@ -48,7 +48,7 @@ body, html {
 }
 
 .title {
-  font: 44px 'Lato', sans-serif;
+  font: 36px 'Lato', sans-serif;
   color: #4A4A4A;
   margin: 70px 25px;
 }
@@ -84,19 +84,20 @@ body, html {
 }
 
 .philosophy-title {
-  font: 36px 'Lato', sans-serif;
+  font: 24px 'Lato', sans-serif;
   color: #4A4A4A;
   margin: 0 0 18px;
 }
 
 .philosophy-description {
-  font: 300 30px 'Lato', sans-serif;
+  font: 300 18px 'Lato', sans-serif;
   color: #5E5D5F;
   width: 350px;
   margin: 0;
 }
 
 .philosophy-illustration {
+  height: 350px;
 }
 
 .philosophy-illustration, .philosophy-text {
@@ -116,7 +117,7 @@ body, html {
 }
 
 .section-title {
-  font: 44px 'Lato';
+  font: 36px 'Lato';
   color: #4A4A4A;
   padding: 64px 0 100px;
   margin: 0 auto;
@@ -130,24 +131,24 @@ body, html {
 .person {
   display: inline-block;
   vertical-align: middle;
-  width: 500px;
-  margin: 0 36px 50px;
+  width: 400px;
+  margin: 0 30px 50px;
   color: #4F4F4F;
 }
 
 .person-name {
-  font: 36px 'Lato';
+  font: 24px 'Lato';
   margin: 24px 0 0;
 }
 
 .person-image {
-  width: 181px;
+  width: 150px;
   border-radius:  50%;
   border: 8px solid #FF337D;
 }
 
 .person-links {
-  font: 22px 'Lato';
+  font: 18px 'Lato';
   text-transform: uppercase;
   margin-top: 6px;
 }
@@ -161,7 +162,7 @@ body, html {
 .person-description {
   width: 496px;
   margin: 36px 0 0;
-  font: 300 30px 'Lato';
+  font: 300 18px 'Lato';
   color: #7F7F7F;
 }
 
@@ -204,18 +205,18 @@ body, html {
 }
 
 .contact-letter {
-  background: url('../img/illustrations/image-letter.png');
-  width: 860px;
-  height: 532px;
+  background: url('../img/illustrations/image-letter.png') -150px -2px no-repeat;
+  width: 580px;
+  height: 420px;
   margin: 0 auto;
-  padding: 160px 150px;
+  padding: 150px 50px;
   box-shadow: 5px 2px 4px rgba(149,149,149,0.5);
 }
 
 .contact-letter-content {
   color: #4A4A4A;
   margin: 0 auto 45px;
-  font: 300 30px 'Lato';
+  font: 300 18px 'Lato';
   text-align: center;
   line-height: 1.5em;
   width: 440px;
