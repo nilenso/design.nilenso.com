@@ -62,13 +62,13 @@ body, html {
 }
 
 .philosophy-section:nth-child(even) {
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .philosophy-section:nth-child(odd) {
-    background-color: #FAFAFA;
-    border-bottom: 2px solid rgba(209,209,209,0.5);
-    border-top: 2px solid rgba(209,209,209,0.5);
+  background-color: #FAFAFA;
+  border-bottom: 2px solid rgba(209,209,209,0.5);
+  border-top: 2px solid rgba(209,209,209,0.5);
 }
 
 .philosophy-text {
@@ -96,4 +96,63 @@ body, html {
   display: inline-block;
   vertical-align: middle;
   margin: 0 50px;
+}
+
+
+.team {
+  padding-top: 64px;
+  padding-bottom: 180px;
+  text-align: center;
+  background: #FAFAFA;
+  border-bottom: 2px solid rgba(209,209,209,0.5);
+  border-top: 2px solid rgba(209,209,209,0.5);
+  font-family: 'Lato', sans-serif;
+}
+
+.team-title {
+  font: 44px 'Lato';
+  color: #4A4A4A;
+  margin: 0 0 100px;
+}
+
+.list-of-people {
+  padding: 0;
+}
+
+.person {
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  margin: 0 36px;
+  color: #4F4F4F;
+}
+
+.person-name {
+  font: 36px 'Lato';
+  margin: 24px 0 0;
+}
+
+.person-image {
+  width: 181px;
+  border-radius:  50%;
+  border: 8px solid #FF337D;
+}
+
+.person-links {
+  font: 22px 'Lato';
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.person-link {
+  color: #4F4F4F;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.person-description {
+  width: 496px;
+  margin: 36px 0 0;
+  font: 300 30px 'Lato';
+  color: #7F7F7F;
 }
