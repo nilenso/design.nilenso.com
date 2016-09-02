@@ -112,7 +112,7 @@ body, html {
   font: 44px 'Lato';
   color: #4A4A4A;
   padding: 64px 0 100px;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -177,4 +177,44 @@ body, html {
 .work-company {
   display: inline-block;
   margin: 0 10px;
+}
+
+.contact {
+  position: relative;
+  border-top: 2px solid rgba(209,209,209,0.5);
+}
+
+.contact .section-title {
+  max-width: 745px;
+  padding-top: 130px;
+}
+
+.tea {
+  position: absolute;
+  top: 38px;
+  left: 0;
+}
+
+.contact-letter {
+  background: url('../img/illustrations/image-letter.png');
+  width: 860px;
+  height: 532px;
+  margin: 0 auto;
+  padding: 160px 150px;
+  box-shadow: 5px 2px 4px rgba(149,149,149,0.5);
+}
+
+.contact-letter-content {
+  color: #4A4A4A;
+  margin: 0 0 45px;
+  font: 300 30px 'Lato';
+  text-align: center;
+  line-height: 1.5em;
+  width: 544px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #4A4A4A;
+  border-bottom: 1px solid #ddd;
 }
