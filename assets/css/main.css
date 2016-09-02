@@ -1,21 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body, html {
   margin: 0px;
   padding: 0px;
   height: 100%;
 }
-
-h1 { 
-  margin: 0;
-}
-
-.underlined {
-  text-decoration: underline;
-}
-
-
-
-
-
 
 .banner {
   height: 760px;
@@ -64,133 +55,166 @@ h1 {
   vertical-align: middle;
 }
 
-
-
-
-
-
-.pure-g {
-  position: relative;
+.philosophy-section {
+  text-align: center;
+  height: 490px;
+  padding: 58px 159px;
 }
 
-.align-to-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.philosophy-section:nth-child(even) {
+  background-color: #FFFFFF;
 }
 
-.sentinal {
-  height: 100%;
+.philosophy-section:nth-child(odd) {
+  background-color: #FAFAFA;
+  border-bottom: 2px solid rgba(209,209,209,0.5);
+  border-top: 2px solid rgba(209,209,209,0.5);
 }
 
-@media screen and (max-width: 48em) {
-  .sentinal {
-    display:none;
-  }
-
-  div.philosophy-content {
-    width: 100%;
-    text-align: center;
-  }
-
-  div.philosophy-content > .align-to-center {
-    position: relative;
-    left: 0;
-    top 0;
-    transform: none;
-    margin-top: 10px;
-  }
+.philosophy-text {
+  text-align: left;
 }
 
-div.container {
-  height: 100%;
-  width: 100%;
+.philosophy-title {
+  font: 36px 'Lato', sans-serif;
+  color: #4A4A4A;
+  margin: 0 0 18px;
 }
 
-div.container > div {
-  width: 100%;
+.philosophy-description {
+  font: 300 30px 'Lato', sans-serif;
+  color: #5E5D5F;
+  width: 496px;
+  margin: 0;
 }
 
-div.container .pure-g:nth-child(even) {
-  background: #FFF;
+.philosophy-illustration {
+
 }
 
-div.container > .pure-g:nth-child(odd) {
+.philosophy-illustration, .philosophy-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 50px;
+}
+
+
+.team {
+  padding-bottom: 180px;
+  text-align: center;
+  background: #FAFAFA;
+  border-bottom: 2px solid rgba(209,209,209,0.5);
+  border-top: 2px solid rgba(209,209,209,0.5);
+  font-family: 'Lato', sans-serif;
+}
+
+.section-title {
+  font: 44px 'Lato';
+  color: #4A4A4A;
+  padding: 64px 0 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.list-of-people {
+  padding: 0;
+}
+
+.person {
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  margin: 0 36px;
+  color: #4F4F4F;
+}
+
+.person-name {
+  font: 36px 'Lato';
+  margin: 24px 0 0;
+}
+
+.person-image {
+  width: 181px;
+  border-radius:  50%;
+  border: 8px solid #FF337D;
+}
+
+.person-links {
+  font: 22px 'Lato';
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.person-link {
+  color: #4F4F4F;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.person-description {
+  width: 496px;
+  margin: 36px 0 0;
+  font: 300 30px 'Lato';
+  color: #7F7F7F;
+}
+
+
+.work {
+  text-align: center;
   background: #F8F8F8;
 }
 
-div.header {
-  height: 15%;
-  min-height: 763px;
+.work .section-title {
+  padding-bottom: 50px;
+}
+
+.work-companies {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-company {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contact {
   position: relative;
+  border-top: 2px solid rgba(209,209,209,0.5);
 }
 
-div.logo > img {
-  width: 211px;
-  height: 52px;
-  position: relative;
-  top: 25px;
-  left: 35px;
+.contact .section-title {
+  max-width: 745px;
+  padding-top: 130px;
 }
 
-div.headline {
+.tea {
+  position: absolute;
+  top: 38px;
+  left: 0;
+}
+
+.contact-letter {
+  background: url('../img/illustrations/image-letter.png');
+  width: 860px;
+  height: 532px;
+  margin: 0 auto;
+  padding: 160px 150px;
+  box-shadow: 5px 2px 4px rgba(149,149,149,0.5);
+}
+
+.contact-letter-content {
+  color: #4A4A4A;
+  margin: 0 0 45px;
+  font: 300 30px 'Lato';
   text-align: center;
-  overflow: visible;
+  line-height: 1.5em;
+  width: 544px;
 }
 
-div.headline > h1 { 
-  word-break: break-all;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+.contact-link {
+  text-decoration: none;
+  color: #4A4A4A;
+  border-bottom: 1px solid #ddd;
 }
-
-div.philosophy { 
-  height: 4%;
-  min-height: 200px;
-  text-align: center;
-}
-
-div.philosophy-example {
-  height: 10%;
-  min-height: 490px;
-}
-
-div.philosophy-example:nth-child(odd) {
-  direction: rtl;
-}
-
-div.philosophy-example-text > .pure-g {
-  height: 100%;
-}
-
-div.philosophy-example-image > .pure-g {
-  height: 100%;
-}
-
-div.philosophy-content {
-  position: relative;
-  text-align: center;
-}
-
-div.challenges {
-  height: 10%; 
-}
-
-div.team {
-  height: 18%;
-  min-height: 900px;
-  text-align: center;
-}
-
-div.work {
-  height: 8.5%;
-  min-height: 420px;
-  text-align: center;
-}
-
-div.contact {
-  height: 18%;
-  min-height: 890px;
-  text-align: center;
-} 
