@@ -16,7 +16,7 @@ body, html {
 }
 
 .nilenso-logo {
-  width: 224px;
+  width: 150px;
   position: absolute;
 }
 
@@ -89,7 +89,6 @@ body, html {
 }
 
 .philosophy-illustration {
-
 }
 
 .philosophy-illustration, .philosophy-text {
@@ -206,11 +205,11 @@ body, html {
 
 .contact-letter-content {
   color: #4A4A4A;
-  margin: 0 0 45px;
+  margin: 0 auto 45px;
   font: 300 30px 'Lato';
   text-align: center;
   line-height: 1.5em;
-  width: 544px;
+  width: 440px;
 }
 
 .contact-link {
