@@ -98,12 +98,13 @@ body, html {
 
 .philosophy-illustration {
   height: 350px;
+  width: 350px;
 }
 
 .philosophy-illustration, .philosophy-text {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 40px;
+  margin: 0 10px;
 }
 
 
@@ -160,7 +161,7 @@ body, html {
 }
 
 .person-description {
-  width: 496px;
+  width: 100%;
   margin: 36px 0 0;
   font: 300 18px 'Lato';
   color: #7F7F7F;
@@ -194,7 +195,7 @@ body, html {
 }
 
 .contact .section-title {
-  max-width: 745px;
+  max-width: 500px;
   padding-top: 130px;
 }
 
@@ -246,7 +247,7 @@ body, html {
   .philosophy-text {
   }
   .philosophy-description {
-    max-width: 400px;
+    max-width: 500px;
   }
   .team{
     padding-bottom: 70px;
@@ -254,5 +255,8 @@ body, html {
   .person {
     width: 500px;
     margin-bottom: 50px;
+  }
+  .team{
+    padding-bottom: 70px;
   }
 }
