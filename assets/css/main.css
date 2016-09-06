@@ -10,7 +10,7 @@ body, html {
 }
 
 .container {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 0 0 15px #bbb;
 }
@@ -30,8 +30,8 @@ body, html {
 .banner-text {
   margin: 0 auto;
   text-align: center;
-  font: italic 40px 'Alegreya', sans-serif;
-  width: 72%;
+  font: italic 46px 'Alegreya', sans-serif;
+  width: 49%;
   max-width: 1034px;
   color: #4A4A4A;
   margin-top: 279px;
@@ -64,8 +64,10 @@ body, html {
 }
 
 .philosophy-section {
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
-  height: 490px;
+  height: 430px;
   padding: 58px 10px;
 }
 
@@ -90,9 +92,9 @@ body, html {
 }
 
 .philosophy-description {
-  font: 300 18px 'Lato', sans-serif;
+  font: 300 24px 'Lato', sans-serif;
   color: #5E5D5F;
-  width: 360px;
+  width: 460px;
   margin: 0;
 }
 
@@ -104,11 +106,13 @@ body, html {
 .philosophy-illustration, .philosophy-text {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 10px;
+  margin: 0 90px;
 }
 
 
 .team {
+  width: 100%;
+  margin: 0 auto;
   padding-bottom: 180px;
   text-align: center;
   background: #FAFAFA;
@@ -133,7 +137,7 @@ body, html {
   display: inline-block;
   vertical-align: middle;
   width: 400px;
-  margin: 0 30px 50px;
+  margin: 0 74px 50px;
   color: #4F4F4F;
 }
 
@@ -163,7 +167,7 @@ body, html {
 .person-description {
   width: 100%;
   margin: 36px 0 0;
-  font: 300 18px 'Lato';
+  font: 300 24px 'Lato';
   color: #7F7F7F;
 }
 
@@ -171,10 +175,11 @@ body, html {
 .work {
   text-align: center;
   background: #F8F8F8;
+  padding-bottom: 20px;
 }
 
 .work .section-title {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .work-companies {
@@ -185,10 +190,16 @@ body, html {
 
 .work-company {
   display: inline-block;
+  margin: 0;
+}
+
+.razorfish{
   margin: 0 10px;
 }
 
 .contact {
+  width: 100%;
+  margin: 0 auto;
   background: white;
   position: relative;
   border-top: 2px solid rgba(209,209,209,0.5);
@@ -203,21 +214,22 @@ body, html {
   position: absolute;
   top: 38px;
   left: 0;
+  height: 180px;
 }
 
 .contact-letter {
-  background: url('../img/illustrations/image-letter.png') -150px -2px no-repeat;
-  width: 580px;
-  height: 420px;
+  background: url('../img/illustrations/image-letter.png') 11px -2px no-repeat;
+  width: 870px;
+  height: 440px;
   margin: 0 auto;
-  padding: 150px 50px;
+  padding: 140px 50px;
   box-shadow: 5px 2px 4px rgba(149,149,149,0.5);
 }
 
 .contact-letter-content {
   color: #4A4A4A;
   margin: 0 auto 45px;
-  font: 300 18px 'Lato';
+  font: 300 24px 'Lato';
   text-align: center;
   line-height: 1.5em;
   width: 440px;
