@@ -241,6 +241,35 @@ body, html {
   border-bottom: 1px solid #ddd;
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   moz-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+  .company-logo-qt {
+    background: url('../img/logos/logo-qt@2x.png');
+  }
+
+  .company-logo-gc {
+    background: url('../img/logos/logo-gc@2x.png');
+  }
+
+  .company-logo-rf {
+    background: url('../img/logos/logo-rf@2x.png');
+  }
+
+  .company-logo-kulu {
+    background: url('../img/logos/logo-kulu@2x.png');
+  }
+
+  .company-logo-ei {
+    background: url('../img/logos/logo-ei@2x.png');
+  }
+
+}
 
 @media only screen and (max-device-width: 480px) {
   .container{
