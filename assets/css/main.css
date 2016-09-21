@@ -253,10 +253,10 @@ body, html {
     padding: 58px;
   }
   .philosophy-illustration {
-    width: 340px;
-    height: 340px;
+    width: 300px;
+    height: 300px;
   }
-  .philosophy-text {
+  .philosophy-text, .philosophy-illustration {
     margin: 0 10px;
   }
   .philosophy-description {
