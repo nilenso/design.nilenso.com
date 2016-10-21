@@ -269,6 +269,10 @@ only screen and (                min-resolution: 2dppx) {
     background: url('../img/logos/logo-ei@2x.png');
   }
 
+  .company-logo-quiklrn{
+    background: url('../img/logos/logo-ei@2x.png');
+  }
+
 }*/
 
 @media only screen and (max-device-width: 480px) {
